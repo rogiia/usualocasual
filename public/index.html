@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+	<meta name='description' content='Compara preus de bitllets de l`ATM per descobrir quin et surt més a compte' />
+	<base href="/">
+	<title>Usual o Casual?</title>
+	<link rel="manifest" href="manifest.json">
+
+	<meta name="theme-color" content="#009f94">
+
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="Usual o Casual?">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="apple-mobile-web-app-title" content="Usual o Casual?">
+
+	<link rel="apple-touch-icon" href="images/manifest/icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/manifest/icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="96x96" href="images/manifest/icon-96x96.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/manifest/icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="192x192" href="images/manifest/icon-192x192.png">
+
+	<meta name="msapplication-TileImage" content="images/manifest/icon-144x144.png">
+	<meta name="msapplication-TileColor" content="#009f94">
+	<meta name="msapplication-tap-highlight" content="no">
+
+	<meta name="twitter:card" content="Compara preus de bitllets de l`ATM per descobrir quin et surt més a compte">
+	<!-- TODO -->
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="usual-o-casual">
+	<meta property="og:image" content="images/manifest/icon-144x144.png" />
+
+	<link rel='icon' type='image/png' href='images/manifest/icon-72x72.png'>
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+	<script>
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', function() {
+				navigator.serviceWorker.register('service-worker.js', {
+					scope: '/',
+				});
+			});
+		}
+
+		window.process = { env: { NODE_ENV: 'production' } };
+	</script>
+	<script defer src='/build/bundle.js'></script>
+</head>
+
+<body>
+	<noscript>
+		Please enable JavaScript to view this website.
+	</noscript>
+</body>
+</html>

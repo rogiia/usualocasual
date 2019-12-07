@@ -1,0 +1,156 @@
+[
+    {
+        "name": "Bitllet senzill",
+        "description": "Bitllet per a un sol viatge",
+        "price": {
+            "1": "2.40",
+            "2": "3.40",
+            "3": "4.50",
+            "4": "5.75",
+            "5": "7.35",
+            "6": "8.55"
+        },
+        "maxUses": "1",
+        "maxDays": null,
+        "imageUrl": "images/bitllet-senzill.jpg"
+    },
+    {
+        "name": "T-Casual",
+        "description": "Bitllet unipersonal per a 10 viatges",
+        "price": {
+            "1": "11.35",
+            "2": "22.40",
+            "3": "30.50",
+            "4": "39.20",
+            "5": "45.05",
+            "6": "47.90"
+        },
+        "maxUses": "10",
+        "maxDays": null,
+        "imageUrl": "images/tcasual.png"
+    },
+    {
+        "name": "T-Usual",
+        "description": "Bitllet unipersonal per a un mes d'ús il·limitat",
+        "price": {
+            "1": "40.00",
+            "2": "53.85",
+            "3": "75.60",
+            "4": "92.55",
+            "5": "106.20",
+            "6": "113.75"
+        },
+        "reducedPrice": {
+            "1": "32.00",
+            "2": "43.10",
+            "3": "60.45",
+            "4": "74.05",
+            "5": "84.95",
+            "6": "91.00"
+        },
+        "specialReducedPrice": {
+            "1": "20.00",
+            "2": "26.95",
+            "3": "37.80",
+            "4": "46.30",
+            "5": "53.10",
+            "6": "56.90"
+        },
+        "bonifiedPrice": {
+            "1": "9.95",
+            "2": "9.95",
+            "3": "9.95",
+            "4": "9.95",
+            "5": "9.95",
+            "6": "9.95"
+        },
+        "maxUses": null,
+        "maxDays": 30,
+        "imageUrl": "images/tusual.png"
+    },
+    {
+        "name": "T-Jove",
+        "description": "Bitllet unipersonal per a viatges il·limitats durant un trimestre",
+        "price": {
+            "1": "80.00",
+            "2": "105.20",
+            "3": "147.55",
+            "4": "180.75",
+            "5": "207.40",
+            "6": "222.25"
+        },
+        "reducedPrice": {
+            "1": "64.00",
+            "2": "84.15",
+            "3": "118.05",
+            "4": "144.60",
+            "5": "165.95",
+            "6": "177.80"
+        },
+        "specialReducedPrice": {
+            "1": "40.00",
+            "2": "52.60",
+            "3": "73.80",
+            "4": "90.40",
+            "5": "103.70",
+            "6": "111.15"
+        },
+        "maxUses": null,
+        "maxDays": 90,
+        "imageUrl": "images/tjove.jpg",
+        "onlyJove": "true"
+    },
+    {
+        "name": "T-Dia",
+        "description": "Bitllet per a viatges il·limitats durant un dia",
+        "price": {
+            "1": "10.50",
+            "2": "16.00",
+            "3": "20.10",
+            "4": "22.45",
+            "5": "25.15",
+            "6": "28.15"
+        },
+        "maxUses": null,
+        "maxDays": 1,
+        "imageUrl": "images/tdia.jpg"
+    },
+    {
+        "name": "T-Grup",
+        "description": "Billet multipersonal per a fins a 70 viatges en 30 dies",
+        "price": {
+            "1": "79.45",
+            "2": "156.80",
+            "3": "213.50",
+            "4": "274.40",
+            "5": "315.35",
+            "6": "335.30"
+        },
+        "maxUses": "70",
+        "maxDays": "30",
+        "imageUrl": "images/tgrup.png"
+    },
+    {
+        "name": "T-FM/FN",
+        "description": "Bitllet per a membres de famílies monoparentals o nombroses de fins a 90 usos en 70 dies",
+        "reducedPrice": {
+            "1": "63.55",
+            "2": "125.45",
+            "3": "170.80",
+            "4": "219.50",
+            "5": "252.30",
+            "6": "268.25"
+        },
+        "specialReducedPrice": {
+            "1": "39.75",
+            "2": "78.40",
+            "3": "106.75",
+            "4": "137.20",
+            "5": "157.70",
+            "6": "167.65"
+        },
+        "maxUses": "90",
+        "maxDays": "70",
+        "imageUrl": "images/tfmfn.jpg"
+    }
+]
